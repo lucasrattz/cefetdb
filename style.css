@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&family=Source+Code+Pro:wght@500&display=swap');
+
+@font-face {
+    font-family: Hikou;
+    src: url("http://rattz.xyz/cefetdb/Hikou.otf") format("opentype");
+}
+
+h1 {
+    font-family: 'Hikou', 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48pt;
+    font-style: Bold;
+    line-height: 12pt;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px 1px #919191;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17pt;
+    font-style: Medium;
+    line-height: 9pt; 
+}
+
+#wrapper {
+    display: flex;
+}
+
+#subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17pt;
+    line-height: 9pt;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+ol {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.discipline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    min-height: 60px;
+    margin-bottom: 8px;
+    border: 2px solid #919191;
+    border-radius: 8px;
+    background: rgb(235, 243, 255);;
+    box-shadow: 3px 3px 1px #919191;
+    transition: 0.3s;
+}
+
+.discipline:hover {
+    background-color: white;
+    transform: scale(1.07);
+}
+
+.discipline a {
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 12pt;
+    text-decoration: none;
+
+    width: 95%;
+    margin: 0 auto;
+    color: rgba(66,139,255,1);
+    
+}
+
+body {
+    box-sizing: border-box;
+    background: rgb(66,139,255);
+    background: linear-gradient(180deg, rgba(66,139,255,1) 0%, rgba(144,187,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#FileList {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#FileList b {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 300;
+  font-size: 17pt;
+  color: white;
+  text-shadow: 2px 2px 1px #919191;
+}
+
+td a {
+    color: white;
+    margin-left: 8px;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 300;
+    font-size: 17pt;
+    text-shadow: 2px 2px 1px #919191;
+}
+
+td {
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+}
+
+tbody {
+    box-shadow: 0px 0px 1px 4px #919191;
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: auto;
+    padding-top: 20px;
+    padding-left: 5px;
+    position: relative;
+}
+
+footer i {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(66,139,255,1);
+    font-size: 14pt;
+    font-family: 'Source Code Pro', serif;
+}
+
+footer i a {
+  text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(66,139,255,1);
+    font-size: 14pt;
+    font-family: 'Source Code Pro', serif;
+}
+
+i#fRight {
+    position: absolute;
+    right: 5px;
+}
+
+#modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 3vh;
+}
+
+#modal h3 a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+#modal h3 {
+    transition: 0.3s;
+}
+
+#modal h3:hover{
+    text-shadow: 1px 1px 1px #919191;
+    transform: scale(1.07);
+}
+
+form {
+    display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 30%
+}
+
+form select {
+    flex: 50%;
+    margin-right: auto;
+    width: 50px;
+}
+
+#file {
+    flex: 50%;
+    margin-left: auto;
+}
+
+#submitBtn {
+    margin: auto;
+    flex: 2;
+    max-width: 100px;
+    height: 26px;
+    margin-top: 20px;
+    border: 2px solid #919191;
+    border-radius: 8px;
+    background: rgb(235, 243, 255);
+    box-shadow: 2px 2px 1px #919191;
+    transition: 0.3s;
+    color: rgba(66,139,255,1);
+    font-family: 'Roboto', sans-serif;
+}
+
+#submitBtn:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+  background: white;
+}
