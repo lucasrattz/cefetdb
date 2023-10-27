@@ -218,6 +218,7 @@ form select {
   background: white;
 }
 
+
 @media (max-width: 1120px) {
     #wrapper{
         flex-direction: column;
