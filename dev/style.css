@@ -217,3 +217,16 @@ form select {
   cursor: pointer;
   background: white;
 }
+
+
+@media (max-width: 1120px) {
+    #wrapper{
+        flex-direction: column;
+    }
+
+    #submitBtn:hover,
+    #modal h3:hover,
+    .discipline:hover{
+        transform: scale(1.0);
+    }
+}
